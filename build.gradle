@@ -16,6 +16,8 @@ targetCompatibility = 1.8
 
 test {
     systemProperty "java.library.path", file("${buildDir}/libs/hello/shared").absolutePath
+   // executable = "/Users/avu/java/jbsdk138/Contents/Home/bin/java"
+    executable = "/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/bin/java"
 }
 
 model {
